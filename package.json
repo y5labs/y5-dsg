@@ -24,7 +24,10 @@
   ],
   "author": "Nicolas Keller (https://github.com/nick-keller)",
   "license": "MIT",
-  "repository": "nick-keller/react-datasheet-grid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-keller/react-datasheet-grid.git"
+  },
   "homepage": "https://react-datasheet-grid.netlify.app/",
   "devDependencies": {
     "@jest/types": "^27.4.2",
