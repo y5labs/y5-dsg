@@ -174,7 +174,7 @@ export const Grid = <T extends any>({
                   columns[col.index].headerClassName
                 )}
               >
-                <div className="dsg-cell-header-container">
+                <div className={cx('dsg-cell-header-container', columns[col.index].alignRight && 'dsg-input-align-right')}>
                   {columns[col.index].title}
                 </div>
               </CellComponent>

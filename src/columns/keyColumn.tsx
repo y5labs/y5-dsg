@@ -51,6 +51,7 @@ export const keyColumn = <
   ...column,
   // We pass the key and the original column as columnData to be able to retrieve them in the cell component
   columnData: { key: key as string, original: column },
+  alignRight: column.columnData?.alignRight,
   component: KeyComponent,
   // Here we simply wrap all functions to only pass the value of the desired key to the column, and not the entire row
   copyValue: ({ rowData, rowIndex }) =>

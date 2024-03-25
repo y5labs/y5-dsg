@@ -29,6 +29,7 @@ export type Column<T, C, PasteValue> = {
   id?: string
   headerClassName?: string
   title?: React.ReactNode
+  alignRight?: boolean
   /** @deprecated Use `basis`, `grow`, and `shrink` instead */
   width?: string | number
   basis: number
